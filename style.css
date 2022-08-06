@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 5%;
+    height: 80px;
+    background-color: gold;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+   
+}
+
+
+
+aside {
+    background-color: #bdc3c7;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+aside button{
+    background-color: cornflowerblue;
+    padding: 7px 10px;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+section {
+    display: grid;
+    
+   
+   
+   
+    
+}
+
+section .bola img{
+    padding: 20px 15px;
+}
+
+section .bola{
+    background-color: dodgerblue;
+    height: 90px;
+    border-radius: 0 0 0 50px;
+}
+
+.pesquisar{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+.pesquisar .form-pesquisar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+}
+.form-pesquisar form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    
+}
+
+.form-pesquisar form input {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.form-pesquisar form button{
+    background-color: gold;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 15px;
+   ;
+  
+}
+
+.sorteio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+   
+}
+
+.sorteio  .data{
+    padding: 7px;
+    background-color: crimson;
+    color: white;
+   width: 80%;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sorteio .descricao {
+    
+    margin-bottom: 50px;
+}
+
+.sorteio .descricao ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 450px;
+    height: 150px;
+}
+.sorteio .descricao ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.sorteio .descricao .premio {
+    color: blue;
+   
+   
+}
+
+.sorteio .descricao .numeros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
